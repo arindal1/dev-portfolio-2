@@ -1,6 +1,6 @@
 # Developer Portfolio Website
 
-This repository hosts the source code for my personal developer portfolio website. This website serves as a showcase of my skills, projects, experience, and other relevant information for potential employers, clients, or collaborators.
+This repository hosts the source code for my personal developer portfolio website. This website serves as a showcase of my skills, projects, experience, and other relevant information for potential employers, clients, or collaborators.<br>
 [Landing Page](https://arindal1.github.io/dev-portfolio-2/)
 
 ## Features
