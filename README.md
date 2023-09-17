@@ -31,4 +31,4 @@ If you have any questions, suggestions, or just want to connect, feel free to re
 - LinkedIn: [arindalchar](https://www.linkedin.com/in/arindalchar/)
 
 ## Note:
-*This is a personal project, and isn't meant to imitate anyone else's work, any similarities found can be purely coincidental. This repo is meant to be an upgraded version of my old (portfolio)[https://github.com/arindal1/portfolio-website] site with more fun features, animations and UI optimizations. I just like developing, and this was purely for fun. If you like my landing page, feel free to draw inspiration or re-use elements from it.*
+*This is a personal project, and isn't meant to imitate anyone else's work, any similarities found can be purely coincidental. This repo is meant to be an upgraded version of my old !(portfolio)[https://github.com/arindal1/portfolio-website] site with more fun features, animations and UI optimizations. I just like developing, and this was purely for fun. If you like my landing page, feel free to draw inspiration or re-use elements from it.*
