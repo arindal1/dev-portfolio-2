@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "icon" href = "images/icon.png" type = "image/x-icon">
+    <title>Arindal Char | Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link id="lightModeCSS" rel="stylesheet" href="light-mode.css" disabled>
+
+</head>
+<body>
+    <div class="loading-screen" id="loadingScreen">
+        <div class="welcome-container">
+        <h1 class="welcome-text">WELCOME</h1>
+        <h3 class="welcome-text">portfolio is loading...</h3>
+        <div class="loading-bar-container">
+            <div class="loading-bar" id="loadingBar"></div>
+            <p class="loading-text" id="loadingText">Loading...</p>
+        </div>
+        </div>
+    </div>
+    
+    <!-- Main Content -->
+    <div class="main-content" id="mainContent">
+<!-- <img id="bg" src="images/cover.png"> -->
+    <div id="header">
+        <div class="container">
+            <div class="headerbg">
+                
+            </div>
+            <nav>
+                <p class="logo"><a href="https://arindal1.github.io/portfolio-website/" target="_blank"><span>A</span>rindal</a></p>
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="https://github.com/arindal1/dev-portfolio-2">Repo</a></li>
+                    <img id="fas" src="images/cross.png" onclick="closemenu()">
+                    <button id="toggleButton" onclick="toggleButtonColor()">&#9776;</button>
+                </ul>
+                <img id="fas" src="images/menu.png" onclick="openmenu()">
+            </nav>
+        </div>
+    </div>
+
+    <div id="about-bg"></div>
+    <div class="header-text">
+      <p>Hi There!</p>
+      <h1>I'm <span>Arindal Char</span></h1>
+      <h3 id="a1"><span>MERN &lt;dev&gt;, machine learning engineer</span></h3>
+      <h3 id="a2"><span>web3 & cloud enthusiast, tech geek</span></h3>
+  </div>
+  <div class="fixed-images" id="fixedImages">
+    <div class="image-wrapper">
+      <img src="images/kratos.png" alt="Image 1" class="fixed-image" onclick="openLink('https://en.wikipedia.org/wiki/Kratos_(mythology)')"/>
+      <div class="image-overlay">
+        <p></p>
+      </div>
+    </div>
+    <div class="image-wrapper">
+      <img src="images/chief.png" alt="Image 2" class="fixed-image" onclick="openLink('https://en.wikipedia.org/wiki/Master_Chief_(Halo)')"/>
+      <div class="image-overlay">
+        <p></p>
+      </div>
+    </div>
+  </div>
+  
+    
+    <div class="bubble-column">
+
+        <a class="icon" href="https://github.com/arindal1" target="_blank" ><img src="sidebaricons/github.png" alt="github"></a>
+        <a class="icon" href="https://code.visualstudio.com/" target="_blank" ><img src="sidebaricons/vsc.png" alt="VSC"></a>
+        <a class="icon" href="https://jupyter.org/" target="_blank" ><img src="sidebaricons/jupyter.png" alt="jupyter"></a>
+        <a class="icon" href="https://obsidian.md/" target="_blank" ><img src="sidebaricons/obsidian.png" alt="obsidain"></a>   
+        <a class="icon" href="https://www.python.org/" target="_blank" ><img src="sidebaricons/python.png" alt="python"></a>
+        <a class="icon" href="https://www.java.com/en/" target="_blank" ><img src="sidebaricons/java.png" alt="java"></a>
+        <a class="icon" href="https://www.learn-c.org/" target="_blank" ><img src="sidebaricons/c.png" alt="C"></a>
+        <a class="icon" href="https://isocpp.org/" target="_blank" ><img src="sidebaricons/cpp.png" alt="C++"></a>
+        <a class="icon" href="https://numpy.org/" target="_blank" ><img src="sidebaricons/numpy.png" alt="numpy"></a>
+        <a class="icon" href="https://pandas.pydata.org/" target="_blank" ><img src="sidebaricons/pandas.png" alt="pandas"></a>
+        <a class="icon" href="https://matplotlib.org/stable/index.html" target="_blank" ><img src="sidebaricons/matplot.png" alt="matplot"></a>
+        <a class="icon" href="https://scikit-learn.org/stable/" target="_blank" ><img src="sidebaricons/sklearn.png" alt="sklearn"></a>
+        <a class="icon" href="https://www.tensorflow.org/" target="_blank" ><img src="sidebaricons/tflow.png" alt="tensorflow"></a>
+        <a class="icon" href="https://keras.io/" target="_blank" ><img src="sidebaricons/keras.png" alt="keras"></a>
+        <a class="icon" href="https://seaborn.pydata.org/" target="_blank" ><img src="sidebaricons/seaborn.png" alt="seaborn"></a>
+        <a class="icon" href="https://opencv.org/" target="_blank" ><img src="sidebaricons/opencv.png" alt="opencv"></a>
+        <a class="icon" href="https://streamlit.io/" target="_blank" ><img src="sidebaricons/streamlit.png" alt="steam"></a>
+        <a class="icon" href="https://html.com/" target="_blank" ><img src="sidebaricons/html.png" alt="HTML"></a>
+        <a class="icon" href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank" ><img src="sidebaricons/css.png" alt="css"></a>
+        <a class="icon" href="https://www.javascript.com/" target="_blank" ><img src="sidebaricons/jscript.png" alt="javascript"></a>
+        <a class="icon" href="https://www.mongodb.com/" target="_blank" ><img src="sidebaricons/mongodb.png" alt="mongo"></a>
+        <a class="icon" href="https://expressjs.com/" target="_blank" ><img src="sidebaricons/express.png" alt="express"></a>
+        <a class="icon" href="https://react.dev/" target="_blank" ><img src="sidebaricons/react.png" alt="react"></a>
+        <a class="icon" href="https://nodejs.org/en" target="_blank" ><img src="sidebaricons/nodejs.png" alt="nodejs"></a>
+        <a class="icon" href="https://www.mysql.com/" target="_blank" ><img src="sidebaricons/sql.png" alt="sql"></a>
+        <a class="icon" href="https://spring.io/projects/spring-boot" target="_blank" ><img src="sidebaricons/springboot.png" alt="springboot"></a>
+        <a class="icon" href="https://getbootstrap.com/" target="_blank" ><img src="sidebaricons/bootstrap.png" alt="bootstrap"></a>
+        <a class="icon" href="https://git-scm.com/" target="_blank" ><img src="sidebaricons/git.png" alt="git"></a>
+        <a class="icon" href="https://www.oracle.com/in/" target="_blank" ><img src="sidebaricons/oracle.png" alt="oracle"></a>
+        <a class="icon" href="https://www.linux.org/" target="_blank" ><img src="sidebaricons/linux.png" alt="linux"></a>
+        <a class="icon" href="https://www.swi-prolog.org/" target="_blank" ><img src="sidebaricons/prolog.png" alt="prolog"></a>
+        <a class="icon" href="https://www.adobe.com/in/products/photoshop.html" target="_blank" ><img src="sidebaricons/photoshop.png" alt="photoshop"></a>
+        <a class="icon" href="https://www.adobe.com/in/products/illustrator.html" target="_blank" ><img src="sidebaricons/illustrator.png" alt="illustrator"></a>
+        <a class="icon" href="https://chat.openai.com/" target="_blank" ><img src="sidebaricons/gpt.png" alt="gpt"></a>
+        <a class="icon" href="https://www.kaggle.com/arindal" target="_blank" ><img src="sidebaricons/kaggle.png" alt="Kaggle"></a>
+        <a class="icon" href="https://stackoverflow.com/users/19653412/arindal" target="_blank" ><img src="sidebaricons/overflow.png" alt="overflow"></a>
+
+      </div>
+      <div class="header-text-placeholder"></div>
+
+      <!-- <img id="bg1" src="images/bg.png"> -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/pic.jpg" alt="userpicture">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <br>
+                    <p>I am a final year Computer Science undergraduate at the University of Engineering and Management, Kolkata, deeply passionate about MERN development, Machine Learning and AWS.
+                        <br>My journey has equipped me with a strong foundation in these domains, allowing me to excel in both problem-solving, development and Machine Larning engineering. With hands-on experience in various projects, I strive to innovate and create impactful solutions in the ever-evolving tech landscape.</p>
+                    <br>
+                    <br>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Language</span><br>CPP, C, Java, JavaScript, Python, Shell, HTML/CSS</li>
+                            <li><span>Frameworks</span><br>ReactJS, TailwindsCSS, Flask, Tensorflow, OpenCV, etc</li>
+                            <li><span>Dev Tools</span><br>Git, Github, Linux </li>
+                            <li><span>Others</span><br>AWS, APIs, MySQL</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Coding</span><br>Gold Badges for C, CPP and Java in Hackerrank<br>Over 400 problems solved in Leetcode and CodeChef</li>
+                            <li><span>Contests</span><br>Partcipated in multiple Coding Contests in Codechef, Leetcode, CodeForces</li>
+                            <li><span>Certifications</span><br>AWS Fundamentals Specialization (Coursera) <br>AWS APAC's Solutions Architecture (Forage) <br>Machine Learning Speacialization (Coursera) </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br>BTech - CSE (Artificial Intelligence & Machine Learning)<br>University of Engineering & Management, Kolkata<br>Current GPA: 8.33</li>
+                            <li><span>2013-2021</span><br>Higher Secondary (ICSE)<br>St. Patrick's HS School, Asansol</li>
+                            <li><span></span><br></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/blynk.png" alt="blynk">
+                    <div class="layer">
+                        <h3>Blynk: RealTime Chat App</h3>
+                        <p>Blynk is a real-time messaging application built using the MERN stack. This project is designed to provide a platform for users to sign up, create their accounts, and engage in real-time text conversations with other users.</p>
+                        <a href="https://blynk-app.onrender.com/"  target="_blank"><img src="images/extlink.png"></a>
+                    </div>
+                </div>
+            
+                <div class="work">
+                    <img src="images/iphone.png" alt="iphone">
+                    <div class="layer">
+                        <h3>iPhone 13 Pro</h3>
+                        <p>iPhone 15 Pro landing page featuring dynamic animations powered by GSAP and an interactive 3D model of the iPhone created using Three.JS, and error tracking and performance monitoring through Sentry.</p>
+                        <a href="https://iphone15-pro-five.vercel.app/"  target="_blank"><img src="images/extlink.png"></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/yolo5.jpg" alt="object detector">
+                    <div class="layer">
+                        <h3>YOLOv5 Object Detection</h3>
+                        <p>A lightweight object detection model that uses YOLOv5's real-time object detection system and OpenCV libraries to detect and recognize a large number of stuff.</p>
+                        <a href="https://github.com/arindal1/yolov5-onnx-object-recognition"><img src="images/extlink.png"></a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/threat.png" alt="threathunter">
+                    <div class="layer">
+                        <h3>Threathunter ML</h3>
+                        <p>This project implements an Intrusion Detection System (IDS) for network security, utilizing a Random Forest model to detect anomalies in network traffic.</p>
+                        <a href="https://github.com/arindal1/anomaly-threat-hunter-ml"><img src="images/extlink.png"></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/cons.jpg" alt="construction">
+                    <div class="layer">
+                        <h3>[UNDER PROGRESS]</h3>
+                        <p> </p>
+                        <a href="https://github.com/arindal1?tab=repositories" target="_blank"><img src="images/extlink.png"></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/cons.jpg" alt="construction">
+                    <div class="layer">
+                        <h3>[UNDER PROGRESS]</h3>
+                        <p> </p>
+                        <a href="https://github.com/arindal1?tab=repositories" target="_blank"><img src="images/extlink.png"></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/arindal1?tab=repositories" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- My Tools Section -->
+<div class="my-tools" id="myTools">
+    <h1 class="sub-title">My Tools</h1>
+    <div class="tool-icons">
+        <a class="icon" href="https://github.com/arindal1" target="_blank" ><img src="sidebaricons/github.png" alt="github"></a>
+        <a class="icon" href="https://code.visualstudio.com/" target="_blank" ><img src="sidebaricons/vsc.png" alt="VSC"></a>
+        <a class="icon" href="https://jupyter.org/" target="_blank" ><img src="sidebaricons/jupyter.png" alt="jupyter"></a>
+        <a class="icon" href="https://obsidian.md/" target="_blank" ><img src="sidebaricons/obsidian.png" alt="obsidain"></a>  
+        <a class="icon" href="https://www.python.org/" target="_blank" ><img src="sidebaricons/python.png" alt="python"></a>
+        <a class="icon" href="https://www.java.com/en/" target="_blank" ><img src="sidebaricons/java.png" alt="java"></a>
+        <a class="icon" href="https://www.learn-c.org/" target="_blank" ><img src="sidebaricons/c.png" alt="C"></a>
+        <a class="icon" href="https://isocpp.org/" target="_blank" ><img src="sidebaricons/cpp.png" alt="C++"></a>
+        <a class="icon" href="https://numpy.org/" target="_blank" ><img src="sidebaricons/numpy.png" alt="numpy"></a>
+        <a class="icon" href="https://pandas.pydata.org/" target="_blank" ><img src="sidebaricons/pandas.png" alt="pandas"></a>
+        <a class="icon" href="https://matplotlib.org/stable/index.html" target="_blank" ><img src="sidebaricons/matplot.png" alt="matplot"></a>
+        <a class="icon" href="https://scikit-learn.org/stable/" target="_blank" ><img src="sidebaricons/sklearn.png" alt="sklearn"></a>
+        <a class="icon" href="https://www.tensorflow.org/" target="_blank" ><img src="sidebaricons/tflow.png" alt="tensorflow"></a>
+        <a class="icon" href="https://keras.io/" target="_blank" ><img src="sidebaricons/keras.png" alt="keras"></a>
+        <a class="icon" href="https://seaborn.pydata.org/" target="_blank" ><img src="sidebaricons/seaborn.png" alt="seaborn"></a>
+        <a class="icon" href="https://opencv.org/" target="_blank" ><img src="sidebaricons/opencv.png" alt="opencv"></a>
+        <a class="icon" href="https://html.com/" target="_blank" ><img src="sidebaricons/html.png" alt="HTML"></a>
+        <a class="icon" href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank" ><img src="sidebaricons/css.png" alt="css"></a>
+        <a class="icon" href="https://www.javascript.com/" target="_blank" ><img src="sidebaricons/jscript.png" alt="javascript"></a>
+        <a class="icon" href="https://www.mongodb.com/" target="_blank" ><img src="sidebaricons/mongodb.png" alt="mongo"></a>
+        <a class="icon" href="https://expressjs.com/" target="_blank" ><img src="sidebaricons/express.png" alt="express"></a>
+        <a class="icon" href="https://react.dev/" target="_blank" ><img src="sidebaricons/react.png" alt="react"></a>
+        <a class="icon" href="https://nodejs.org/en" target="_blank" ><img src="sidebaricons/nodejs.png" alt="nodejs"></a>
+        <a class="icon" href="https://www.mysql.com/" target="_blank" ><img src="sidebaricons/sql.png" alt="sql"></a>
+        <a class="icon" href="https://spring.io/projects/spring-boot" target="_blank" ><img src="sidebaricons/springboot.png" alt="springboot"></a>
+        <a class="icon" href="https://getbootstrap.com/" target="_blank" ><img src="sidebaricons/bootstrap.png" alt="bootstrap"></a>
+        <a class="icon" href="https://git-scm.com/" target="_blank" ><img src="sidebaricons/git.png" alt="git"></a>
+        <a class="icon" href="https://www.oracle.com/in/" target="_blank" ><img src="sidebaricons/oracle.png" alt="oracle"></a>
+        <a class="icon" href="https://www.linux.org/" target="_blank" ><img src="sidebaricons/linux.png" alt="linux"></a>
+        <a class="icon" href="https://www.swi-prolog.org/" target="_blank" ><img src="sidebaricons/prolog.png" alt="prolog"></a>
+        <a class="icon" href="https://www.adobe.com/in/products/photoshop.html" target="_blank" ><img src="sidebaricons/photoshop.png" alt="photoshop"></a>
+        <a class="icon" href="https://www.adobe.com/in/products/illustrator.html" target="_blank" ><img src="sidebaricons/illustrator.png" alt="illustrator"></a>
+        <a class="icon" href="https://chat.openai.com/" target="_blank" ><img src="sidebaricons/gpt.png" alt="gpt"></a>
+        <a class="icon" href="https://www.kaggle.com/arindal" target="_blank" ><img src="sidebaricons/kaggle.png" alt="Kaggle"></a>
+        <a class="icon" href="https://stackoverflow.com/users/19653412/arindal" target="_blank" ><img src="sidebaricons/overflow.png" alt="overflow"></a>
+      <!-- Add more tool icons here -->
+    </div>
+  </div>
+  
+    <br>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><img src="images/mail.png">arindalchar17@gmail.com</p>
+                    <p><img src="images/call.png">+91 9064940551</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/arindalchar" target="_blank"><img src="images/link.png" alt="linkedin"></a>
+                        <a href="https://github.com/arindal1" target="_blank"><img src="images/git.png" alt="github"></a>
+                        <a href="https://instagram.com/arindxl?igshid=MzRlODBiNWFlZA==" target="_blank"><img src="images/ig.png" alt="instagram"></a>
+
+                    </div>
+                    <a href="https://drive.google.com/file/d/1ZWd-nw-c7MNdOgzdSMi25VyCDo3B0_94/view?usp=sharing" download="" class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="your name" required>
+                        <input type="email" name="email" placeholder="your e-mail" required>
+                        <textarea name="Message" rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2023 - Arindal Char - All Rights Reserved</p>
+        </div>
+    </div>
+      </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
